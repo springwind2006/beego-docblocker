@@ -1,4 +1,4 @@
-# beego-docblocker README
+# beego-docblocker for VSCode plugin
 
 此插件是用于beego开发，主要用于自动生成文档
 
