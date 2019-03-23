@@ -2,16 +2,21 @@
     "name": "beego-docblocker",
     "displayName": "Beego DocBlocker",
     "description": "A simple, dependency free Beego specific DocBlocking package",
-    "keywords": ["vscode", "plugin", "beego", "golang"],
-    "version": "0.0.1",
+    "keywords": [
+        "vscode",
+        "plugin",
+        "beego",
+        "golang"
+    ],
+    "version": "0.0.2",
     "publisher": "steeze",
     "engines": {
         "vscode": "^1.30.0"
     },
     "repository": {
-		"type": "git",
-		"url": "https://github.com/springwind2006/beego-docblocker.git"
-	},
+        "type": "git",
+        "url": "https://github.com/springwind2006/beego-docblocker.git"
+    },
     "categories": [
         "Other"
     ],
@@ -22,19 +27,19 @@
     "main": "./src/extension",
     "contributes": {
         "configuration": {
-			"type": "object",
-			"title": "Beego DocBlocker configuration",
-			"properties": {
-				"beego-docblocker.author": {
-					"type": "object",
-					"default": {
-						"name": "Name",
-						"email": "email@email.com"
-					},
-					"description": "Default author tag"
-				}
-			}
-		}
+            "type": "object",
+            "title": "Beego DocBlocker configuration",
+            "properties": {
+                "beego-docblocker.author": {
+                    "type": "object",
+                    "default": {
+                        "name": "Name",
+                        "email": "email@email.com"
+                    },
+                    "description": "Default author tag"
+                }
+            }
+        }
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
